@@ -30,7 +30,7 @@ set showmatch
 set textwidth=79
 set formatoptions=croq
 
-command CWS s/\s\+$//g
+command CWS %s/\s\+$//g
 
 nnoremap <silent> <leader>j m`o<Esc>``
 nnoremap <silent> <leader>k m`O<Esc>``
