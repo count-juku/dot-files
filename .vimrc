@@ -29,6 +29,7 @@ set nowrap
 set showmatch
 set textwidth=79
 set formatoptions=croq
+set so=5
 
 command CWS %s/\s\+$//g
 
