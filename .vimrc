@@ -1,6 +1,10 @@
 " plugins: pathogen, taboo, vim-surround, vim-commentary, fzf
 execute pathogen#infect()
 
+autocmd FileType matlab set commentstring=%\ %s
+filetype indent on
+filetype plugin on
+
 let mapleader=","
 let g:taboo_tab_format=" %N%f%m "
 let g:taboo_renamed_tab_format=" %N[%l]%m "
@@ -24,7 +28,7 @@ set encoding=utf-8
 set fileencoding=utf-8
 set colorcolumn=80
 set ruler
-set number
+set number relativenumber
 set nowrap
 set showmatch
 set textwidth=79
